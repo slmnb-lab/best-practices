@@ -18,7 +18,7 @@ Section titled “1.1 创建部署服务”
 
 登录[共绩算力控制台](https://console.suanli.cn/)，在控制台首页点击“弹性部署服务”进入管理页面。首次使用需确保账户已开通弹性部署服务权限。
 
-![](/assets/NMj0bDGLXoH7wjxs0Aoc6roxng6.png)
+![](https://www.gongjiyun.com/assets/NMj0bDGLXoH7wjxs0Aoc6roxng6.png)
 
 ### 1.2 选择 GPU 型号
 
@@ -28,7 +28,7 @@ Section titled “1.2 选择 GPU 型号”
 
 初次使用或调试阶段，推荐配置单张 NVIDIA RTX 4090 GPU
 
-![](/assets/IVgTbCO2uocxiMxVwUac6ixKnPb.png)
+![](https://www.gongjiyun.com/assets/IVgTbCO2uocxiMxVwUac6ixKnPb.png)
 
 ### 1.3 选择预制镜像
 
@@ -42,13 +42,13 @@ Section titled “1.4 部署并访问服务”
 
 点击“部署服务”，平台将自动拉取镜像并启动容器。
 
-![](/assets/AlaKbEaOxoUCtYx2wDzcor8unYd.png)
+![](https://www.gongjiyun.com/assets/AlaKbEaOxoUCtYx2wDzcor8unYd.png)
 
 部署完成后，在“快捷访问”中复制端口为 8000 的公网访问链接，后续是通过该地址调用 API 服务。
 
 地址后面加上 /docs 进入 API 接口文档
 
-![](/assets/ObQrbisFBo0MU6xMDvKc6Fl1nJd.png)
+![](https://www.gongjiyun.com/assets/ObQrbisFBo0MU6xMDvKc6Fl1nJd.png)
 
 ## 2.快速上手—— API 使用说明
 

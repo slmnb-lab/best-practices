@@ -16,7 +16,7 @@ Section titled “1、部署服务”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击【新增部署任务】。”
 
-![](/assets/UfxEbWfdSoLlqsxPuL1cqPC5nNh.png)
+![](https://www.gongjiyun.com/assets/UfxEbWfdSoLlqsxPuL1cqPC5nNh.png)
 
 ### 1.2 选择设备
 
@@ -24,7 +24,7 @@ Section titled “1.2 选择设备”
 
 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
-![](/assets/OLI5bHiqIoTFPGx47NScHoxDnkf.png)
+![](https://www.gongjiyun.com/assets/OLI5bHiqIoTFPGx47NScHoxDnkf.png)
 
 ### 1.3 选择相应预制镜像
 
@@ -32,13 +32,13 @@ Section titled “1.3 选择相应预制镜像”
 
 这里选择 **Open Web UI + Qwen3 30B，** 同意协议，点击【部署服务】。
 
-![](/assets/UCPfbJEfIo70sgxlvlIckc9Fnic.png)
+![](https://www.gongjiyun.com/assets/UCPfbJEfIo70sgxlvlIckc9Fnic.png)
 
 ### 1.4 耐心等待节点拉取镜像并启动
 
 Section titled “1.4 耐心等待节点拉取镜像并启动”
 
-![](/assets/Fpa2brKJcoEiOqxpy1wcZhhBnwf.png)
+![](https://www.gongjiyun.com/assets/Fpa2brKJcoEiOqxpy1wcZhhBnwf.png)
 
 ### 1.5 部署完成
 
@@ -49,7 +49,7 @@ Section titled “1.5 部署完成”
   * 11434 对应的链接就是 Ollama 服务的 API 访问地址。将这个 API 地址【复制】下来，就可以在任何支持 Ollama 协议的应用程序中使用。
   * 8080 对应的链接就是 Open WebUI 的访问地址
 
-![](/assets/BGosbKUzcof50axc8DccMrQXnfE.png)
+![](https://www.gongjiyun.com/assets/BGosbKUzcof50axc8DccMrQXnfE.png)
 
 > 请耐心一点～～ 模型镜像会比较大，**qwen3:30b-a3b 镜像本身 20G+，打包之后大约 30G+，** 拉取镜像会需要一段时间
 
@@ -61,7 +61,7 @@ Section titled “1.6 如何切换模型”
 
 找到任务列表，选择刚刚创建的任务，点击跳转到详情页面
 
-![](/assets/UrTXbAsEco6s9bxGssJc3wSFnOc.png)
+![](https://www.gongjiyun.com/assets/UrTXbAsEco6s9bxGssJc3wSFnOc.png)
 
   1. 进入环境变量设置页面
   2. 找到输入框，输入以下格式的环境变量： 
@@ -89,7 +89,7 @@ DEFAULT_MODEL=模型名称
   * 可用的模型名称请参考 [Ollama官方模型库](https://ollama.com/library)
   * 确保输入的模型名称格式正确，通常为 模型系列:参数规模 的形式
 
-![](/assets/JfkDbvDhboztbJxc5lrceOisnhh.png)
+![](https://www.gongjiyun.com/assets/JfkDbvDhboztbJxc5lrceOisnhh.png)
 
 ## 2、开始使用 Open WebUI
 
@@ -101,7 +101,7 @@ Section titled “2.1 访问开始页面”
 
 访问 8080 端口对应的链接，会出现以下界面，说明 Open WebUI 已经成功部署。点击【开始使用】
 
-![](/assets/IhKGbh6fNoERFpxGApCceugPnmb.png)
+![](https://www.gongjiyun.com/assets/IhKGbh6fNoERFpxGApCceugPnmb.png)
 
 ### 2.2 设置管理员账号
 
@@ -109,7 +109,7 @@ Section titled “2.2 设置管理员账号”
 
 设置管理员账号和密码，点击【创建管理员账号】
 
-![](/assets/G6OMbqDx3onrsnxtitjc6r5OnMc.png)
+![](https://www.gongjiyun.com/assets/G6OMbqDx3onrsnxtitjc6r5OnMc.png)
 
 ### 2.3 开始 AI 对话
 
@@ -119,7 +119,7 @@ Section titled “2.3 开始 AI 对话”
 
 现在一起就绪，开始与 AI 的对话之旅吧～～～
 
-![](/assets/F680bEDozoQjp5xE2AncM5CTnGe.png)
+![](https://www.gongjiyun.com/assets/F680bEDozoQjp5xE2AncM5CTnGe.png)
 
 ## 3、 模型速度测试
 
@@ -127,7 +127,7 @@ Section titled “3、 模型速度测试”
 
 qwen3 部署完成了，速度怎么样呢？点击 [LM Speed](https://lmspeed.net/zh-CN) 测试一下速度吧～～～
 
-![](/assets/NZm7bCi1YodBh3xbNCscHhlqnqb.png)
+![](https://www.gongjiyun.com/assets/NZm7bCi1YodBh3xbNCscHhlqnqb.png)
 
 ## **4、****本地****打包 Ollama 和 Open WebUI 镜像**
 

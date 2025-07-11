@@ -14,7 +14,7 @@ Section titled “1.1 创建部署服务”
 
 登录[共绩算力控制台](https://console.suanli.cn/)，在控制台首页点击“弹性部署服务”进入管理页面。首次使用需确保账户已开通弹性部署服务权限。
 
-![](/assets/Veqibmu3zoi7OIxb2SbcyOHpnIc.png)
+![](https://www.gongjiyun.com/assets/Veqibmu3zoi7OIxb2SbcyOHpnIc.png)
 
 ### **1.2 选择 GPU 型号**
 
@@ -24,7 +24,7 @@ Section titled “1.2 选择 GPU 型号”
 
 初次使用或调试阶段，推荐配置单张 NVIDIA RTX 4090 GPU
 
-![](/assets/XZXybVS2toCejaxCrxScQKMlnJc.png)
+![](https://www.gongjiyun.com/assets/XZXybVS2toCejaxCrxScQKMlnJc.png)
 
 ### **1.3 选择预制镜像**
 
@@ -38,7 +38,7 @@ Section titled “1.4 部署并访问服务”
 
 点击“部署服务”，平台将自动拉取镜像并启动容器。
 
-![](/assets/G1PBbth4ootvWkxGzsccHnubnlh.png)
+![](https://www.gongjiyun.com/assets/G1PBbth4ootvWkxGzsccHnubnlh.png)
 
 部署完成后，在“快捷访问”中找到端口为 7860 的公网访问链接，点击即可在浏览器中使用 HivisionIDPhotos 的 Web 界面，或通过 8080 端口调用 API 服务。
 
@@ -48,23 +48,23 @@ Section titled “2.快速上手——快速抠图蓝底证件照”
 
 可以点击或直接把要制作的图片拖入，然后在下方选择相关参数：
 
-![](/assets/Y234bqgFYoaSsYxZFVCc5zq0ntc.png)
+![](https://www.gongjiyun.com/assets/Y234bqgFYoaSsYxZFVCc5zq0ntc.png)
 
 这里以一寸照片，蓝色背景为例：
 
-![](/assets/XP3jbPVYio1VmaxtUiZcNnTAnth.png)
+![](https://www.gongjiyun.com/assets/XP3jbPVYio1VmaxtUiZcNnTAnth.png)
 
 选择完毕后，点击开始制作：
 
 几十秒后即可完成：
 
-![](/assets/FSWQbsTTgoQlTex6Js0c6B5znKe.png)
+![](https://www.gongjiyun.com/assets/FSWQbsTTgoQlTex6Js0c6B5znKe.png)
 
 左侧标准，右侧高清，下方还能生成 10 张排版的格式。
 
 展开下方栏目，还能看到同时生成了社交媒体模版照和抠图图像，确实挺方便：
 
-![](/assets/FLIAbbgRIoWfhDxrB1SccWNwnPc.png)
+![](https://www.gongjiyun.com/assets/FLIAbbgRIoWfhDxrB1SccWNwnPc.png)
 
 ## 3.API 调用指南
 
@@ -72,11 +72,11 @@ Section titled “3.API 调用指南”
 
 HivisionIDPhotos 提供完整的 API 接口体系，支持通过编程方式实现照片创作全流程自动化。以下为官方核心接口详解与调用示范：
 
-![](/assets/Iz6Gbp6l9obECDxOKK4c6w3Ynzb.png)
+![](https://www.gongjiyun.com/assets/Iz6Gbp6l9obECDxOKK4c6w3Ynzb.png)
 
 我们预制好的镜像中 8080 端口为 API 调用接口地址，可以在生产环境中直接使用
 
-![](/assets/LzFrbNC5EoVXrvxXEefcrXk2ntg.png)
+![](https://www.gongjiyun.com/assets/LzFrbNC5EoVXrvxXEefcrXk2ntg.png)
 
 ### 3.1 环境准备
 

@@ -16,41 +16,41 @@ Section titled “1.部署步骤”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击任意一个弹性部署服务。”
 
-![](/assets/ANO2bKYURof7eYxsVSlcLgcZnIh.png)
+![](https://www.gongjiyun.com/assets/ANO2bKYURof7eYxsVSlcLgcZnIh.png)
 
 ### 1.2 进入服务列表后点击`新增部署服务`按钮
 
 Section titled “1.2 进入服务列表后点击新增部署服务按钮”
 
-![](/assets/TpQgbCLjuozpypx934ZcqN05nld.png)
+![](https://www.gongjiyun.com/assets/TpQgbCLjuozpypx934ZcqN05nld.png)
 
 ### 1.3 基于自身需要进行配置，参考配置为单卡 4090（初次使用进行调试）。
 
 Section titled “1.3 基于自身需要进行配置，参考配置为单卡 4090（初次使用进行调试）。”
 
-![](/assets/BGtebfseZo5g7ox1VLgcqTGvnXg.png)
+![](https://www.gongjiyun.com/assets/BGtebfseZo5g7ox1VLgcqTGvnXg.png)
 
 ### 1.4 选择服务配置中的预制镜像 选择我们打包好的 Whisper 镜像快速开启服务
 
 Section titled “1.4 选择服务配置中的预制镜像 选择我们打包好的 Whisper 镜像快速开启服务”
 
-![](/assets/SAcRbn8csoYDARxivsLcwVcjnUg.png)
+![](https://www.gongjiyun.com/assets/SAcRbn8csoYDARxivsLcwVcjnUg.png)
 
 ### 1.5 点击部署服务，耐心等待节点拉取镜像并启动 第一次访问会下载模型，所以需要稍等一会
 
 Section titled “1.5 点击部署服务，耐心等待节点拉取镜像并启动 第一次访问会下载模型，所以需要稍等一会”
 
-![](/assets/KvCHbp4qhoptrAxFlaGcEvWgnvd.png) ![](/assets/Qdt4badVfohrFHx7HjKc5sPVnAf.png)
+![](https://www.gongjiyun.com/assets/KvCHbp4qhoptrAxFlaGcEvWgnvd.png) ![](https://www.gongjiyun.com/assets/Qdt4badVfohrFHx7HjKc5sPVnAf.png)
 
 ### 1.6 节点启动后，你所在“公开访问”中看到的内容可能如下：
 
 Section titled “1.6 节点启动后，你所在“公开访问”中看到的内容可能如下：”
 
-![](/assets/HZ27bXlahoky6XxLAvtcKWfznce.png)
+![](https://www.gongjiyun.com/assets/HZ27bXlahoky6XxLAvtcKWfznce.png)
 
 通过查看节点列表——查看详情 通过容器信息**确定模型加载完成** 即可正常进入服务
 
-![](/assets/UZFLbGuuYoAKmnx754UcvdPJnMe.png)
+![](https://www.gongjiyun.com/assets/UZFLbGuuYoAKmnx754UcvdPJnMe.png)
 
 ### 1.7 我们可以点击“9000”端口的链接，测试 whisper 部署情况，系统会自动分配一个可公网访问的域名，接下来我们即可自由地使用 whisper 的服务
 
@@ -232,17 +232,17 @@ Section titled “2.2.1 英文音频转文字”
 
 点击`/asr：语音识别接口`后点击页面右上角`Try it out` 开始使用
 
-![](/assets/GDyrbPsc3oDh0jxORYicSZH5nZe.png)
+![](https://www.gongjiyun.com/assets/GDyrbPsc3oDh0jxORYicSZH5nZe.png)
 
 先用一个英文 mp3 音频看看效果，可以先照抄截图中的参数看看效果，后面会介绍每个参数的意思。需要音频文件的可以在这里下载：
 
 <https://www.gongjiyun.com/resource/frozen231202_0242164tMa.mp3>
 
-![](/assets/PwuBbqEK8ovIP5xc7u0ckfUnnIb.png)
+![](https://www.gongjiyun.com/assets/PwuBbqEK8ovIP5xc7u0ckfUnnIb.png)
 
 稍等一会即可转换完成，在 response body 中可看到转换结果。
 
-![](/assets/UBpQbshfVo2ci8xpIoEcwf3NnHe.png)
+![](https://www.gongjiyun.com/assets/UBpQbshfVo2ci8xpIoEcwf3NnHe.png)
 
 下面是复制出来的文本，可以看到效果是非常好的：
     
@@ -297,7 +297,7 @@ Section titled “2.2.2 中文视频转文字”
 
 与上面操作一样，只是选文件的时候选一个中文视频就可以了，然后提示词这里写上简体中文的要求（默认会输出繁体）
 
-![](/assets/N8kibCBG6oGn5fxfzOTc7SGMn6b.png)
+![](https://www.gongjiyun.com/assets/N8kibCBG6oGn5fxfzOTc7SGMn6b.png)
 
 [26853182957-1-192.mp4](/assets/IOrob6M5WoY8M5xZ9sEcYP1Gnog.mp4)
 
@@ -484,11 +484,11 @@ Section titled “2.2.3 语言检测”
 
 不识别文字，只检测一下是什么语言，大文件只会检查前 30 秒。
 
-![](/assets/Hfp7be1iYoBVxOxXmQBc88TCnig.png)
+![](https://www.gongjiyun.com/assets/Hfp7be1iYoBVxOxXmQBc88TCnig.png)
 
 结果展示：
 
-![](/assets/AcGObooOGofvUMx6S42chtsIn5c.png)
+![](https://www.gongjiyun.com/assets/AcGObooOGofvUMx6S42chtsIn5c.png)
 
 ## 3.参数解释
 
@@ -604,7 +604,7 @@ Section titled “4.项目介绍”
 
 Whisper 是一个通用的语音识别模型，它使用了大量的多语言和多任务的监督数据来训练，能够在英语语音识别上达到接近人类水平的鲁棒性和准确性。Whisper 还可以进行多语言语音识别、语音翻译和语言识别等任务。Whisper 的架构是一个简单的端到端方法，采用了编码器 - 解码器的 Transformer 模型，将输入的音频转换为对应的文本序列，并根据特殊的标记来指定不同的任务。
 
-![](/assets/BXXIbo8Vgoo3prx5oWhcDAFVnue.png)
+![](https://www.gongjiyun.com/assets/BXXIbo8Vgoo3prx5oWhcDAFVnue.png)
 
 Whisper 是一个自动语音识别（ASR，Automatic Speech Recognition）系统，OpenAI 通过从网络上收集了 68 万小时的多语言（98 种语言）和多任务（multitask）监督数据对 Whisper 进行了训练。OpenAI 认为使用这样一个庞大而多样的数据集，可以提高对口音、背景噪音和技术术语的识别能力。除了可以用于语音识别，Whisper 还能实现多种语言的转录，以及将这些语言翻译成英语。OpenAI 开放模型和推理代码，希望开发者可以将 Whisper 作为建立有用的应用程序和进一步研究语音处理技术的基础。
 

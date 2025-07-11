@@ -16,7 +16,7 @@ Section titled “1.在共绩算力上运行 JupyterLab”
 
 点击新建部署任务。
 
-![](/assets/AXiwbh5MUoGMfKxKDedcW4gMn7b.png)
+![](https://www.gongjiyun.com/assets/AXiwbh5MUoGMfKxKDedcW4gMn7b.png)
 
 ### 1.1 选择 GPU 型号
 
@@ -26,7 +26,7 @@ Section titled “1.1 选择 GPU 型号”
 
 **GPU 型号推荐配置：** 随便选 直接勾选「4090（1 卡）」，快速启动
 
-![](/assets/TJlcbTuJMoa4ksxGa5nc6VYvnfc.png)
+![](https://www.gongjiyun.com/assets/TJlcbTuJMoa4ksxGa5nc6VYvnfc.png)
 
 ### 1.2 选择服务配置
 
@@ -46,7 +46,7 @@ Section titled “1.2 选择服务配置”
 
 **目前该镜像版本还不具备 OSS 的能力**
 
-![](/assets/A7BYbVDCbo3VqzxVmqzcxaFQngJ.png)
+![](https://www.gongjiyun.com/assets/A7BYbVDCbo3VqzxVmqzcxaFQngJ.png)
 
 （选配）云数据服务环境变量：访问密钥 ID/访问密钥，以及存储桶和文件夹名称传递给容器
 
@@ -54,7 +54,7 @@ Section titled “1.2 选择服务配置”
 
 每个节点对应一台独立服务器，增加节点数量可提升服务性能。系统通过负载均衡器自动分配流量，确保服务高可用性。
 
-![](/assets/OzxObnQKnoAfcDxj7cZcNnP6nMh.png)
+![](https://www.gongjiyun.com/assets/OzxObnQKnoAfcDxj7cZcNnP6nMh.png)
 
 ### 1.3 部署
 
@@ -62,15 +62,15 @@ Section titled “1.3 部署”
 
 开始拉取 JupyterLab 镜像：
 
-![](/assets/XhQLbo03eoZW7BxBBDZcyTHMnRg.png)
+![](https://www.gongjiyun.com/assets/XhQLbo03eoZW7BxBBDZcyTHMnRg.png)
 
 由于镜像体积较大，我们需要耐心等待一段时间，部署完成后页面显示如下图。节点分配完成后，可以通过点击回传链接访问服务：
 
-![](/assets/HL3NbAdc3oHZBuxrAPAclCdFnUd.png)
+![](https://www.gongjiyun.com/assets/HL3NbAdc3oHZBuxrAPAclCdFnUd.png)
 
 然后开始使用 JupyterLab 服务
 
-![](/assets/QNvxb2IrUoYvPUxHsgtctJ3xn2e.png)
+![](https://www.gongjiyun.com/assets/QNvxb2IrUoYvPUxHsgtctJ3xn2e.png)
 
 现在，您可以编写 Python 代码来学习、测试、微调或训练 Hugging Face 中流行的 AI 模型。如有 缺少库或依赖项，您可以在 notebook 或 Terminal 中在线安装它们。您还可以构建您的容器镜像，以包含基于提供的 Dockerfile 模板的特定库和依赖项。
 
@@ -99,7 +99,7 @@ Section titled “3.JupyterLab 数据持久化容器镜像的构建”
 
 为满足无状态容器工作负载的数据持久化需求，我们基于主流公有云存储服务（包括阿里云 OSS、华为云 OBS、腾讯云 COS 等）设计了集成化解决方案。该方案通过以下流程实现 JupyterLab 数据持久化：
 
-![](/assets/AETybxSaSosoB1x7j6bcRgOpnhe.png)
+![](https://www.gongjiyun.com/assets/AETybxSaSosoB1x7j6bcRgOpnhe.png)
 
   1. **云存储集成** 将云平台存储服务深度集成至预构建的 JupyterLab 容器镜像中。初始部署时需完成：
 
@@ -178,13 +178,13 @@ Section titled “4.1 登录阿里云控制台”
 
 创建对象存储 OSS 标准桶
 
-![](/assets/EX69bvovKoq7CSxH29WcMmSMnX1.png)
+![](https://www.gongjiyun.com/assets/EX69bvovKoq7CSxH29WcMmSMnX1.png)
 
 ### **4.2 创建存储桶（Bucket）**
 
 Section titled “4.2 创建存储桶（Bucket）”
 
-![](/assets/Z0ZFbZmBro7mufxHBsEchWITnyd.png) ![](/assets/XzdUbPO9to212axASAucvHbdnVn.png)
+![](https://www.gongjiyun.com/assets/Z0ZFbZmBro7mufxHBsEchWITnyd.png) ![](https://www.gongjiyun.com/assets/XzdUbPO9to212axASAucvHbdnVn.png)
 
   1. 点击 创建 Bucket，进入配置页面。
 
@@ -212,7 +212,7 @@ Section titled “4.3 创建用户目录”
   * 存储桶创建完成后，进入 **文件管理** 页面。
   * 点击 **新建目录** ，输入目录名称：`/user1`。说明：OSS 为扁平化存储，目录通过前缀模拟，直接输入路径即可。
 
-![](/assets/LKZabJba4oTH6jxFdnLc16ynnII.png)
+![](https://www.gongjiyun.com/assets/LKZabJba4oTH6jxFdnLc16ynnII.png)
 
 ### **4.4 完成与验证**
 
@@ -230,11 +230,11 @@ Section titled “4.4 完成与验证”
 
 Section titled “4.5 生成访问密钥：在 RAM 控制台创建子账号，授予OSS读写权限，生成 AccessKey 和 SecretKey”
 
-![](/assets/N3nTbMwYao1c7rxhfpCccpRsnLf.png)
+![](https://www.gongjiyun.com/assets/N3nTbMwYao1c7rxhfpCccpRsnLf.png)
 
 选择对应适配的角色权限并开通：
 
-![](/assets/ZaqobjrQyoUgwSxL7BaclKx7nnf.png)
+![](https://www.gongjiyun.com/assets/ZaqobjrQyoUgwSxL7BaclKx7nnf.png)
 
 使用提供的 JSON 文件创建 OSS IAM 策略（“access_its_own_folder”）。此策略将附加到 OSS IAM 用户，确保每个用户都可以独占访问同一 存储桶中自己的文件夹。
     
@@ -295,7 +295,7 @@ Section titled “4.5 生成访问密钥：在 RAM 控制台创建子账号，�
 
 创建好密码后及时保存用户名称和密码相关信息（Access Key/Secret Key 对）
 
-![](/assets/HmCCbrxxdovFm9xQ0b2cDcq4nmb.png)
+![](https://www.gongjiyun.com/assets/HmCCbrxxdovFm9xQ0b2cDcq4nmb.png)
 
 ### **4.6 注意事项**
 

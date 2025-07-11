@@ -16,7 +16,7 @@ Section titled “1 开源案例”
 
 项目地址：<https://github.com/slmnb-lab/FluxEz>
 
-![](/assets/DOtAbHnnjoY1FexjRyTcC7B5nqg.png)
+![](https://www.gongjiyun.com/assets/DOtAbHnnjoY1FexjRyTcC7B5nqg.png)
 
 ## 2 部署步骤
 
@@ -30,31 +30,31 @@ Section titled “2 部署步骤”
 
 Section titled “2.1 访问共绩算力控制台 https://console.suanli.cn，点击新增部署。”
 
-![](/assets/EipSbc4T7osHzbxuYnQcDanInVf.png)
+![](https://www.gongjiyun.com/assets/EipSbc4T7osHzbxuYnQcDanInVf.png)
 
 ### 2.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
 Section titled “2.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。”
 
-![](/assets/SUXFbPbqToK0M8x1iBpcQqZQnOb.png)
+![](https://www.gongjiyun.com/assets/SUXFbPbqToK0M8x1iBpcQqZQnOb.png)
 
 ### 2.3 选择相应预制镜像
 
 Section titled “2.3 选择相应预制镜像”
 
-![](/assets/Eea9buPubou6fzxLUk6cGgmQnzf.png)
+![](https://www.gongjiyun.com/assets/Eea9buPubou6fzxLUk6cGgmQnzf.png)
 
 ### 2.4 点击部署服务，耐心等待节点拉取镜像并启动。
 
 Section titled “2.4 点击部署服务，耐心等待节点拉取镜像并启动。”
 
-![](/assets/FtUabjU8Qo39acxkPotcM0nnnjT.png)
+![](https://www.gongjiyun.com/assets/FtUabjU8Qo39acxkPotcM0nnnjT.png)
 
 ### 2.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：
 
 Section titled “2.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：”
 
-![](/assets/K3cybT2kEotPwMx3NRScmSKgn3d.png)
+![](https://www.gongjiyun.com/assets/K3cybT2kEotPwMx3NRScmSKgn3d.png)
 
 ### 2.6 我们可以点击快速访问下方“8188”端口的链接，测试 comfyui 部署情况
 
@@ -64,11 +64,11 @@ Section titled “2.6 我们可以点击快速访问下方“8188”端口的链
 
 我们进入 8188 端口的 web ui 界面，选择左侧的“工作流“菜单，找到名为”flux_dev_t5fp8.json“的工作流文件，鼠标点击。
 
-![](/assets/LBD7bRxuHojgoxxrVXpcgGPJnbc.png)
+![](https://www.gongjiyun.com/assets/LBD7bRxuHojgoxxrVXpcgGPJnbc.png)
 
 随后，我们可以看到工作流已经被正常载入 ComfyUI 了。接下来，我们找到 prompt（提示词）的填写节点，输入我们想要生成的图像描述文本。
 
-![](/assets/R4vqbJ31ToIGrdxAo6QcqWmxnBf.png)
+![](https://www.gongjiyun.com/assets/R4vqbJ31ToIGrdxAo6QcqWmxnBf.png)
 
 参考的 prompt 如下（FLUX 模型对英文支持较好）：
 
@@ -76,7 +76,7 @@ Section titled “2.6 我们可以点击快速访问下方“8188”端口的链
 
 稍等片刻，即可在后方的“保存图像”节点看到基于我们提示词生成的图片。右键点击图片，选择“Save Image”即可保存图片。
 
-![](/assets/ZwfCbepCAoOR3WxoIFpcqYLknYe.png)
+![](https://www.gongjiyun.com/assets/ZwfCbepCAoOR3WxoIFpcqYLknYe.png)
 
 ### 2.7 通过 API 的形式来调用 comfyui 进行图像生成
 
@@ -92,7 +92,7 @@ Section titled “2.7.1 保存页面工作流”
 
 点击”导航栏——工作流——导出（API）“菜单，浏览器会自动下载一个 json 文件。
 
-![](/assets/IBYCbQioeopTerxxQSYc5uWWnYk.png)
+![](https://www.gongjiyun.com/assets/IBYCbQioeopTerxxQSYc5uWWnYk.png)
 
 #### 2.7.2 打开 POSTMAN，新建一个 POST 请求
 
@@ -100,7 +100,7 @@ Section titled “2.7.2 打开 POSTMAN，新建一个 POST 请求”
 
 新建一个 POST 请求，并命名为”prompt“，如下图所示：
 
-![](/assets/ORMlbo6oMoIg5VxZbN4c2EmhnBg.png)
+![](https://www.gongjiyun.com/assets/ORMlbo6oMoIg5VxZbN4c2EmhnBg.png)
 
 #### 2.7.3 完善请求信息
 
@@ -126,7 +126,7 @@ Section titled “2.7.3 完善请求信息”
 
 如图。
 
-![](/assets/Z125btBjNoAinAxW9b1ca0isnxf.png)
+![](https://www.gongjiyun.com/assets/Z125btBjNoAinAxW9b1ca0isnxf.png)
 
 #### 2.7.4 将我们下载好的工作流 json 文件粘贴为参数中`prompt`字段的值
 
@@ -134,7 +134,7 @@ Section titled “2.7.4 将我们下载好的工作流 json 文件粘贴为参�
 
 如下图所示，我们将鼠标移动至 prompt 字段的冒号后，粘贴工作流的内容。
 
-![](/assets/CGQybO3mcoSBU1xmVGncz7WAnBK.png)
+![](https://www.gongjiyun.com/assets/CGQybO3mcoSBU1xmVGncz7WAnBK.png)
 
 #### 2.7.5 发送请求
 
@@ -142,7 +142,7 @@ Section titled “2.7.5 发送请求”
 
 返回结果如下所示，`images`字段包含一个字符数组，其中的元素即为生成图片的 base64 编码。
 
-![](/assets/OTGlb6mbgovg3UxAimGc5N81nth.png)
+![](https://www.gongjiyun.com/assets/OTGlb6mbgovg3UxAimGc5N81nth.png)
 
 ## 3 构建 comfyui 镜像
 
@@ -274,7 +274,7 @@ Section titled “3.5.1 获取 API 文档”
 
 我们可以打开浏览器，网址栏输入`http://localhost:3000/docs`，即可打开默认的 comfyui-api 基于 swagger 的文档页面，如下图所示：
 
-![](/assets/PUrYbjphJof9DZxHgB6cvmmwnBh.png)
+![](https://www.gongjiyun.com/assets/PUrYbjphJof9DZxHgB6cvmmwnBh.png)
 
 其中介绍了我们可以使用的 4 个常用方法，可自行了解详情。
 
@@ -298,7 +298,7 @@ Section titled “3.5.2.2 选择参数”
 
 我们所需的参数如下，prompt 对应的是 comfyui 的工作流内容（API 形式）如果有自定义需要，我们也可以修改其中的参数值。
 
-![](/assets/HZ9MbyIQGoRHiKx4ocMcHd0Xntb.png)
+![](https://www.gongjiyun.com/assets/HZ9MbyIQGoRHiKx4ocMcHd0Xntb.png)
     
     
     {

@@ -14,7 +14,7 @@ Section titled “1.1 创建部署服务”
 
 登录[共绩算力控制台](https://console.suanli.cn/)，在控制台首页点击“弹性部署服务”进入管理页面。首次使用需确保账户已开通弹性部署服务权限。
 
-![](/assets/SToob7Qw7ot6wLxabRQc7DrVn8f.png)
+![](https://www.gongjiyun.com/assets/SToob7Qw7ot6wLxabRQc7DrVn8f.png)
 
 ### 1.2 选择 GPU 型号
 
@@ -24,7 +24,7 @@ Section titled “1.2 选择 GPU 型号”
 
 初次使用或调试阶段，推荐配置单张 NVIDIA RTX 4090 GPU
 
-![](/assets/Gjyubi0NpoLXTXxqZqVc0VAnnAc.png)
+![](https://www.gongjiyun.com/assets/Gjyubi0NpoLXTXxqZqVc0VAnnAc.png)
 
 ### 1.3 选择预制镜像
 
@@ -38,11 +38,11 @@ Section titled “1.4 部署并访问服务”
 
 点击“部署服务”，平台将自动拉取镜像并启动容器。
 
-![](/assets/ACDvbChjKoKA6JxUXQBcWX3Dnpc.png)
+![](https://www.gongjiyun.com/assets/ACDvbChjKoKA6JxUXQBcWX3Dnpc.png)
 
 部署完成后，在“快捷访问”中复制端口为 7860 的公网访问链接，后续是通过该地址调用服务。
 
-![](/assets/CIxvbPZqjoofgjxpytqcpYKXnzd.png)
+![](https://www.gongjiyun.com/assets/CIxvbPZqjoofgjxpytqcpYKXnzd.png)
 
 ## 2\. 快速上手
 
@@ -52,13 +52,13 @@ Section titled “2. 快速上手”
 
 Section titled “2.1 系统使用说明”
 
-![](/assets/JcHVb8qqnoxEzKxnRaScAmDJn7g.png)
+![](https://www.gongjiyun.com/assets/JcHVb8qqnoxEzKxnRaScAmDJn7g.png)
 
 ### 2.2 参考效果
 
 Section titled “2.2 参考效果”
 
-![](/assets/D1m2bMX6zoISRNxIQRecIvXFnJf.png) ![](/assets/PHDVbLV4toSQkNxpyVgcjrlWnoh.png) ![](/assets/JNBebtoJfoYcw0x4U4FcJez5nDe.png)
+![](https://www.gongjiyun.com/assets/D1m2bMX6zoISRNxIQRecIvXFnJf.png) ![](https://www.gongjiyun.com/assets/PHDVbLV4toSQkNxpyVgcjrlWnoh.png) ![](https://www.gongjiyun.com/assets/JNBebtoJfoYcw0x4U4FcJez5nDe.png)
 
 ## 3.API 使用示例
 
@@ -66,7 +66,7 @@ Section titled “3.API 使用示例”
 
 拖动到页面最底部：
 
-![](/assets/EMW9btbyLouWfOxpgzZc0Mgjnkg.png) ![](/assets/P3rybpIvsoJGFtxUyKdcBOUjnbM.png)
+![](https://www.gongjiyun.com/assets/EMW9btbyLouWfOxpgzZc0Mgjnkg.png) ![](https://www.gongjiyun.com/assets/P3rybpIvsoJGFtxUyKdcBOUjnbM.png)
     
     
     import requests

@@ -18,7 +18,7 @@ Section titled “1、部署服务”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击新增部署。”
 
-![](/assets/G9lNbt4s6oJDiux75lLcMRMPngg.png)
+![](https://www.gongjiyun.com/assets/G9lNbt4s6oJDiux75lLcMRMPngg.png)
 
 ### 1.2 选择设备
 
@@ -26,7 +26,7 @@ Section titled “1.2 选择设备”
 
 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
-![](/assets/SsQKb2HpAoH8Nbx4msJclvLKnsh.png)
+![](https://www.gongjiyun.com/assets/SsQKb2HpAoH8Nbx4msJclvLKnsh.png)
 
 ### 1.3 选择相应预制镜像
 
@@ -34,13 +34,13 @@ Section titled “1.3 选择相应预制镜像”
 
 这里选择 **Qwen3 30B A3B，** 同意协议，点击部署服务。
 
-![](/assets/AGyGbrbAGohOoix7oyJcstVmnB9.png)
+![](https://www.gongjiyun.com/assets/AGyGbrbAGohOoix7oyJcstVmnB9.png)
 
 ### 1.4 耐心等待节点拉取镜像并启动
 
 Section titled “1.4 耐心等待节点拉取镜像并启动”
 
-![](/assets/Iy07ba4sioNwNlx134ncMu03nve.png)
+![](https://www.gongjiyun.com/assets/Iy07ba4sioNwNlx134ncMu03nve.png)
 
 ### 1.5 部署完成
 
@@ -50,7 +50,7 @@ Section titled “1.5 部署完成”
 
 将这个 API 地址复制下来，就可以在任何支持 Ollama 协议的应用程序中使用。
 
-![](/assets/XxAzbGUHqoAEQWxEULlcpKzNnRh.png)
+![](https://www.gongjiyun.com/assets/XxAzbGUHqoAEQWxEULlcpKzNnRh.png)
 
 > 在“常规”面板里可以看到公开访问的地址，此地址即为 Ollama 服务的 API 地址。 请耐心一点~~ 模型镜像会比较大，**qwen3:30b-a3b 镜像本身 20G+，打包之后大约 40G+，** 拉取镜像会需要一段时间
 
@@ -60,7 +60,7 @@ Section titled “1.6 验证一下”
 
 访问复制的链接，{快捷访问的地址} /api/tags，将链接复制到浏览器，就可以看到以下内容，说明模型已经部署并运行了。
 
-![](/assets/JrfFbVNzZokEeexX96AcnS5Un6b.png)
+![](https://www.gongjiyun.com/assets/JrfFbVNzZokEeexX96AcnS5Un6b.png)
 
 如果需要在其他兼容 Ollama 的客户端使用时，需要提供的参数如下：
 
@@ -99,7 +99,7 @@ Section titled “1.6 验证一下”
 
 使用第三方客户端时，可以按照下图填写内容
 
-![](/assets/TcV4bGSCeo0iPTxShX0ccPU7ncd.png)
+![](https://www.gongjiyun.com/assets/TcV4bGSCeo0iPTxShX0ccPU7ncd.png)
 
 ## 2、模型速度测试
 
@@ -109,7 +109,7 @@ qwen3 部署完成了，速度怎么样呢？点击 [LM Speed](https://lmspeed.n
 
 > 如果 LM Speed 无法访问，多刷新几次就可以了 :-(
 
-![](/assets/H2K9bfrGuoTVsQxy5b7cjC4bnob.png)
+![](https://www.gongjiyun.com/assets/H2K9bfrGuoTVsQxy5b7cjC4bnob.png)
 
 ## **3、构建 Ollama + Qwen3 模型镜像**
 

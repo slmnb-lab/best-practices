@@ -2,7 +2,7 @@
 
 本指南详细阐述了在共绩算力平台上，高效部署与使用 `PDFMathTranslate` 项目的技术方案，旨在解决学术文献、技术手册等包含复杂数学公式的 PDF 翻译难题。
 
-![](/assets/FBJbb1uEDoENlkxKQU8cmkFhnYd.gif)
+![](https://www.gongjiyun.com/assets/FBJbb1uEDoENlkxKQU8cmkFhnYd.gif)
 
 ## **1\. 部署指南：在共绩算力上运行 PDFMathTranslate**
 
@@ -16,7 +16,7 @@ Section titled “1.1 创建部署服务”
 
 登录 [共绩算力控制台](https://console.suanli.cn)，在”控制台”页面中，点击”弹性部署服务”。
 
-![](/assets/P5CFbkwKkoy7SCxAQ8Zc5XLOnwh.png)
+![](https://www.gongjiyun.com/assets/P5CFbkwKkoy7SCxAQ8Zc5XLOnwh.png)
 
 ### **1.2 配置计算资源**
 
@@ -24,7 +24,7 @@ Section titled “1.2 配置计算资源”
 
 根据您的翻译需求选择合适的计算资源。对于初次使用或处理中小型文档，推荐配置单张 NVIDIA RTX 4090 GPU 进行调试。
 
-![](/assets/HUTkbq3lRoY1fvxUgHPcxSIInGq.png)
+![](https://www.gongjiyun.com/assets/HUTkbq3lRoY1fvxUgHPcxSIInGq.png)
 
 ### **1.3 选择预制镜像**
 
@@ -38,7 +38,7 @@ Section titled “1.4 部署并访问服务”
 
 点击”部署服务”并等待平台完成镜像拉取与容器启动。启动后，在部署详情的”公开访问”部分，找到端口为 `7860` 的公网访问链接。点击该链接即可在浏览器中使用 `PDFMathTranslate` 的 Web 界面。
 
-![](/assets/AAfEbhmsZotmMyxSRjwc3gUAnIf.jpeg)
+![](https://www.gongjiyun.com/assets/AAfEbhmsZotmMyxSRjwc3gUAnIf.jpeg)
 
 ## 2.快速上手
 
@@ -48,13 +48,13 @@ Section titled “2.快速上手”
 
 Section titled “2.1 上传文件”
 
-![](/assets/UIWUbB4bSoBmB3xtTkMcjwUunmh.png)
+![](https://www.gongjiyun.com/assets/UIWUbB4bSoBmB3xtTkMcjwUunmh.png)
 
 ### 2.2 选项设置
 
 Section titled “2.2 选项设置”
 
-![](/assets/OcxUbWRAMoHTuSxuPd0c5vF9nqe.png)
+![](https://www.gongjiyun.com/assets/OcxUbWRAMoHTuSxuPd0c5vF9nqe.png)
 
 #### **2.2.1 各 AI 服务 Token/API Key 获取地址**
 
@@ -76,7 +76,7 @@ Section titled “2.2.1 各 AI 服务 Token/API Key 获取地址”
 
 Section titled “2.3 更多设置”
 
-![](/assets/TXQLbwQPYowaHBxDusMcMEk7npb.png)
+![](https://www.gongjiyun.com/assets/TXQLbwQPYowaHBxDusMcMEk7npb.png)
 
 ### 2.4 开始转换
 
@@ -84,15 +84,15 @@ Section titled “2.4 开始转换”
 
 设置完上面的所有设置后点击`Translate` 开始转换 PDF 文件/链接 到指定语言
 
-![](/assets/NeFzbsFMwoBDpTxvzSychXDknvd.png)
+![](https://www.gongjiyun.com/assets/NeFzbsFMwoBDpTxvzSychXDknvd.png)
 
 翻译完成后，这里会出现两个 PDF，一个是中文版，一个是双语版：
 
-![](/assets/NnNjbtMAKofPLPxj57DcD3BKn0D.png)
+![](https://www.gongjiyun.com/assets/NnNjbtMAKofPLPxj57DcD3BKn0D.png)
 
 来看一下效果：
 
-![](/assets/HjOkbEkKFoWTuyxenJEcZ1J5nh7.png) ![](/assets/P2zEbvXQ2olf17xtm0scJcOhnGd.png)
+![](https://www.gongjiyun.com/assets/HjOkbEkKFoWTuyxenJEcZ1J5nh7.png) ![](https://www.gongjiyun.com/assets/P2zEbvXQ2olf17xtm0scJcOhnGd.png)
 
 ## 3.进阶使用
 
@@ -106,7 +106,7 @@ Section titled “3.进阶使用”
 
 工作流参考：
 
-![](/assets/KSpOboMpUohenMx9SVJcyVwLnNc.png)
+![](https://www.gongjiyun.com/assets/KSpOboMpUohenMx9SVJcyVwLnNc.png)
 
 `代码运行`是这个工作流的核心秘密，参考代码如下：
     
@@ -187,11 +187,11 @@ Section titled “3.进阶使用”
 
 这里的模型名称可以随便写，写什么都行，毕竟最终调用的还是你的 FastGPT 工作流。
 
-![](/assets/SPV0bnlM0okPAvxjAF2cfPSMnVf.png)
+![](https://www.gongjiyun.com/assets/SPV0bnlM0okPAvxjAF2cfPSMnVf.png)
 
 然后在自定义 prompt 中输入以下提示词：
 
-![](/assets/AMzCb7mdeo9AJsxZOPOcHnOQnvf.jpeg)
+![](https://www.gongjiyun.com/assets/AMzCb7mdeo9AJsxZOPOcHnOQnvf.jpeg)
     
     
     <b># Role: 资深翻译专家</b>

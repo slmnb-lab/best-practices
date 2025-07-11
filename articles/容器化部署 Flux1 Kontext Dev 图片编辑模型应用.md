@@ -8,31 +8,31 @@ Section titled “1 部署步骤”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击新增部署。”
 
-![](/assets/WSwRb6anMotSYlxaysiciJNAnma.png)
+![](https://www.gongjiyun.com/assets/WSwRb6anMotSYlxaysiciJNAnma.png)
 
 ### 1.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
 Section titled “1.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。”
 
-![](/assets/TT54bFqlWoAYuLxZW61cjDoBnrh.png)
+![](https://www.gongjiyun.com/assets/TT54bFqlWoAYuLxZW61cjDoBnrh.png)
 
 ### 1.3 选择相应预制镜像
 
 Section titled “1.3 选择相应预制镜像”
 
-![](/assets/KhBzbpIRMoykeBxHrPZcwskinGt.png)
+![](https://www.gongjiyun.com/assets/KhBzbpIRMoykeBxHrPZcwskinGt.png)
 
 ### 1.4 点击部署服务，耐心等待节点拉取镜像并启动。
 
 Section titled “1.4 点击部署服务，耐心等待节点拉取镜像并启动。”
 
-![](/assets/MBXkb0tEVoWFC4xMmH4ctTpknyf.png)
+![](https://www.gongjiyun.com/assets/MBXkb0tEVoWFC4xMmH4ctTpknyf.png)
 
 ### 1.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：
 
 Section titled “1.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：”
 
-![](/assets/UTPbb0wpgoZ21wxFcdNcmyrlnEh.png)
+![](https://www.gongjiyun.com/assets/UTPbb0wpgoZ21wxFcdNcmyrlnEh.png)
 
 ### 1.6 我们可以点击快速访问下方“8188”端口的链接，测试 comfyui 部署情况
 
@@ -42,15 +42,15 @@ Section titled “1.6 我们可以点击快速访问下方“8188”端口的链
 
 我们进入 8188 端口的 web ui 界面，选择左侧的“工作流“菜单，找到名为”flux_1_kontext_dev_basic.json“的工作流文件，鼠标双击进行插入。
 
-![](/assets/OhpKbc3Tso6Ye6xIPTKc1Ll7nZX.png)
+![](https://www.gongjiyun.com/assets/OhpKbc3Tso6Ye6xIPTKc1Ll7nZX.png)
 
 随后，我们可以看到工作流已经被正常载入 ComfyUI 了。接下来，我们找到图片上传节点，上传我们想要编辑的图片。我这里选取了一张动漫风格的图片作为示例。
 
-![](/assets/K21db8nWWoItqXx6zx6cXK4Ynxg.png)
+![](https://www.gongjiyun.com/assets/K21db8nWWoItqXx6zx6cXK4Ynxg.png)
 
 接下来，我们找到 prompt（提示词）的填写节点，输入“我们希望如何转变图像”的提示词。
 
-![](/assets/ZVjebo7SJoBKG7xcTPtc1ElPn9b.png)
+![](https://www.gongjiyun.com/assets/ZVjebo7SJoBKG7xcTPtc1ElPn9b.png)
 
 我希望将女孩的连衣裙转变为红色，参考的 prompt 如下（仅支持英文）：
 
@@ -62,7 +62,7 @@ Section titled “1.6 我们可以点击快速访问下方“8188”端口的链
 
 右键点击图片，选择“Save Image”即可保存图片。
 
-![](/assets/DV8Obyiipopw0kxSV0ucHMA7njb.png)
+![](https://www.gongjiyun.com/assets/DV8Obyiipopw0kxSV0ucHMA7njb.png)
 
 ### 1.7 通过 API 的形式来调用 comfyui 进行图像生成
 
@@ -78,7 +78,7 @@ Section titled “1.7.1 保存页面工作流”
 
 点击”导航栏——工作流——导出（API）“菜单，浏览器会自动下载一个 json 文件。
 
-![](/assets/YJ9lb79SfoAW52xOkc9cpt9fnb8.png)
+![](https://www.gongjiyun.com/assets/YJ9lb79SfoAW52xOkc9cpt9fnb8.png)
 
 #### 1.7.2 打开 POSTMAN，新建一个 POST 请求
 
@@ -86,7 +86,7 @@ Section titled “1.7.2 打开 POSTMAN，新建一个 POST 请求”
 
 新建一个 POST 请求，并命名为”prompt“，如下图所示：
 
-![](/assets/SwP3bAPxCo8RHKxQowpcw6vpnre.png)
+![](https://www.gongjiyun.com/assets/SwP3bAPxCo8RHKxQowpcw6vpnre.png)
 
 #### 1.7.3 完善请求信息
 
@@ -112,7 +112,7 @@ Section titled “1.7.3 完善请求信息”
 
 如图。
 
-![](/assets/ZSN4bTImLoSDfyxr1vLcWHtMnFe.png)
+![](https://www.gongjiyun.com/assets/ZSN4bTImLoSDfyxr1vLcWHtMnFe.png)
 
 #### 1.7.4 将我们下载好的工作流 json 文件粘贴为参数中`prompt`字段的值
 
@@ -120,7 +120,7 @@ Section titled “1.7.4 将我们下载好的工作流 json 文件粘贴为参�
 
 如下图所示，我们将鼠标移动至 prompt 字段的冒号后，粘贴工作流的内容。
 
-![](/assets/FuoAbRVVzoeKi4xXSsUcUQqanXt.png)
+![](https://www.gongjiyun.com/assets/FuoAbRVVzoeKi4xXSsUcUQqanXt.png)
 
 #### 1.7.5 上传图片
 
@@ -128,7 +128,7 @@ Section titled “1.7.5 上传图片”
 
 Flux.1 Kontext Dev 的工作流中，默认有个节点类型为“LoadImageOutput”，我们需要将该节点的“class_type”修改为”LoadImage”，同时“input . image”的值修改为“图片的 base64 编码值”，该参数也支持通过 s3 存储读取，传入一个图片的 s3 存储 url。
 
-![](/assets/GtUzbe4UFo7yWyxVGLHcHwopnTf.png)
+![](https://www.gongjiyun.com/assets/GtUzbe4UFo7yWyxVGLHcHwopnTf.png)
 
 #### 1.7.6 发送请求
 
@@ -136,4 +136,4 @@ Section titled “1.7.6 发送请求”
 
 返回结果如下所示，`images`字段包含一个字符数组，其中的元素即为生成图片的 base64 编码。
 
-![](/assets/JT7xbbP9noz60xx1wSTcJMCknOt.png)
+![](https://www.gongjiyun.com/assets/JT7xbbP9noz60xx1wSTcJMCknOt.png)

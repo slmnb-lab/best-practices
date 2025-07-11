@@ -10,31 +10,31 @@ Section titled “1 部署步骤”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击新增部署。”
 
-![](/assets/Bzogb9vACoMb7mxwBLoc1lrfnlh.png)
+![](https://www.gongjiyun.com/assets/Bzogb9vACoMb7mxwBLoc1lrfnlh.png)
 
 ### 1.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
 Section titled “1.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。”
 
-![](/assets/DMvebb9LGoTzeSxUmFPcaxzonEb.png)
+![](https://www.gongjiyun.com/assets/DMvebb9LGoTzeSxUmFPcaxzonEb.png)
 
 ### 1.3 选择相应预制镜像
 
 Section titled “1.3 选择相应预制镜像”
 
-![](/assets/RALNbozx2oWRxFx8oiLcQt3En7b.png)
+![](https://www.gongjiyun.com/assets/RALNbozx2oWRxFx8oiLcQt3En7b.png)
 
 ### 1.4 点击部署服务，耐心等待节点拉取镜像并启动。
 
 Section titled “1.4 点击部署服务，耐心等待节点拉取镜像并启动。”
 
-![](/assets/EV0bbeasioAhOaxBsMRcQsfXnSh.png)
+![](https://www.gongjiyun.com/assets/EV0bbeasioAhOaxBsMRcQsfXnSh.png)
 
 ### 1.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：
 
 Section titled “1.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：”
 
-![](/assets/NjW6bFLljoJNOdxPybCcXlGMnqb.png)
+![](https://www.gongjiyun.com/assets/NjW6bFLljoJNOdxPybCcXlGMnqb.png)
 
 请注意，StableDiffusion 2.1 的镜像需要安装依赖，如果您发现链接暂时无法打开，这是因为程序需要安装依赖，请稍等片刻（约 5 分钟）。
 
@@ -44,11 +44,11 @@ Section titled “1.6 我们可以点击快捷访问下方“7860”端口的链
 
 接下来填写 prompt，描述我们希望图片的内容。
 
-![](/assets/PFrVbz7sNoeJxfxa9U0cWb9ynXb.png)
+![](https://www.gongjiyun.com/assets/PFrVbz7sNoeJxfxa9U0cWb9ynXb.png)
 
 最后点击生成按钮，接下来我们耐心稍等片刻，可以看到图片已经生成。
 
-![](/assets/I3TfbrK9Jo2AIwxjJaTc7oDhnre.png)
+![](https://www.gongjiyun.com/assets/I3TfbrK9Jo2AIwxjJaTc7oDhnre.png)
 
 ## 2 构建镜像
 
@@ -73,7 +73,7 @@ Section titled “2.2 下载模型”
 
 打开下面的 URL，点击页面中模型的下载按钮，耐心等待模型下载完毕。 <https://huggingface.co/stabilityai/stable-diffusion-2-1/tree/main>
 
-![](/assets/KxvjbvP1soGClPxOEJHcUYuEn4d.png)
+![](https://www.gongjiyun.com/assets/KxvjbvP1soGClPxOEJHcUYuEn4d.png)
 
 下载完毕后，将其放入 `stable-diffusion-webui\models\Stable-diffusion` 目录下。
 

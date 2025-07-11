@@ -8,31 +8,31 @@ Section titled “1 部署步骤”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击新增部署。”
 
-![](/assets/GtHxb2avJor205xccdlcyUnunjc.png)
+![](https://www.gongjiyun.com/assets/GtHxb2avJor205xccdlcyUnunjc.png)
 
 ### 1.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
 Section titled “1.2 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。”
 
-![](/assets/XRjabrpSXoyN0dxO5xhcZb0cnQd.png)
+![](https://www.gongjiyun.com/assets/XRjabrpSXoyN0dxO5xhcZb0cnQd.png)
 
 ### 1.3 选择相应预制镜像
 
 Section titled “1.3 选择相应预制镜像”
 
-![](/assets/HoHabo4svoTfY9xebOgcEcginPb.png)
+![](https://www.gongjiyun.com/assets/HoHabo4svoTfY9xebOgcEcginPb.png)
 
 ### 1.4 点击部署服务，耐心等待节点拉取镜像并启动。
 
 Section titled “1.4 点击部署服务，耐心等待节点拉取镜像并启动。”
 
-![](/assets/DR5LbKZ7XoRswVxezqechsFGnlg.png)
+![](https://www.gongjiyun.com/assets/DR5LbKZ7XoRswVxezqechsFGnlg.png)
 
 ### 1.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：
 
 Section titled “1.5 节点启动后，你所在“任务详情页”中看到的内容可能如下：”
 
-![](/assets/Z4bIbz1VHoaGicx3fPAcSNyDnRe.png)
+![](https://www.gongjiyun.com/assets/Z4bIbz1VHoaGicx3fPAcSNyDnRe.png)
 
 ### 1.6 我们可以点击快速访问下方“8188”端口的链接，测试 comfyui 部署情况
 
@@ -42,11 +42,11 @@ Section titled “1.6 我们可以点击快速访问下方“8188”端口的链
 
 我们进入 8188 端口的 web ui 界面，选择左侧的“工作流“菜单，找到名为”sd_text_encoder_exampl.json“的工作流文件，鼠标点击。
 
-![](/assets/X8Wrbhk2FofKurxS6LAcdmw1nme.png)
+![](https://www.gongjiyun.com/assets/X8Wrbhk2FofKurxS6LAcdmw1nme.png)
 
 随后，我们可以看到工作流已经被正常载入 ComfyUI 了。接下来，我们找到 prompt（提示词）的填写节点，输入我们想要生成的图像描述文本。
 
-![](/assets/NZMDbuBpfoyfdAxQRHCcey6gnQe.png)
+![](https://www.gongjiyun.com/assets/NZMDbuBpfoyfdAxQRHCcey6gnQe.png)
 
 参考的 prompt 如下（SD 模型对英文支持较好）：
 
@@ -54,7 +54,7 @@ Section titled “1.6 我们可以点击快速访问下方“8188”端口的链
 
 稍等片刻，即可在后方的“保存图像”节点看到基于我们提示词生成的图片。右键点击图片，选择“Save Image”即可保存图片。
 
-![](/assets/IQVDbSO1eoPj2lxIxoIc55SpnCh.png)
+![](https://www.gongjiyun.com/assets/IQVDbSO1eoPj2lxIxoIc55SpnCh.png)
 
 ### 1.7 通过 API 的形式来调用 comfyui 进行图像生成
 
@@ -70,7 +70,7 @@ Section titled “1.7.1 保存页面工作流”
 
 点击”导航栏——工作流——导出（API）“菜单，浏览器会自动下载一个 json 文件。
 
-![](/assets/FwuybZo4HoJVVYxanc9cfvdvn8e.png)
+![](https://www.gongjiyun.com/assets/FwuybZo4HoJVVYxanc9cfvdvn8e.png)
 
 #### 1.7.2 打开 POSTMAN，新建一个 POST 请求
 
@@ -78,7 +78,7 @@ Section titled “1.7.2 打开 POSTMAN，新建一个 POST 请求”
 
 新建一个 POST 请求，并命名为”prompt“，如下图所示：
 
-![](/assets/D9S7bBcxpol3Prx32hJcgIxynrd.png)
+![](https://www.gongjiyun.com/assets/D9S7bBcxpol3Prx32hJcgIxynrd.png)
 
 #### 1.7.3 完善请求信息
 
@@ -104,7 +104,7 @@ Section titled “1.7.3 完善请求信息”
 
 如图。
 
-![](/assets/KQ55boWh7ocpfpxOqcMcj5sKnac.png)
+![](https://www.gongjiyun.com/assets/KQ55boWh7ocpfpxOqcMcj5sKnac.png)
 
 #### 1.7.4 将我们下载好的工作流 json 文件粘贴为参数中`prompt`字段的值
 
@@ -112,7 +112,7 @@ Section titled “1.7.4 将我们下载好的工作流 json 文件粘贴为参�
 
 如下图所示，我们将鼠标移动至 prompt 字段的冒号后，粘贴工作流的内容。
 
-![](/assets/UbSybeetzo17lRxnAJlceWWmnve.png)
+![](https://www.gongjiyun.com/assets/UbSybeetzo17lRxnAJlceWWmnve.png)
 
 #### 1.7.5 发送请求
 

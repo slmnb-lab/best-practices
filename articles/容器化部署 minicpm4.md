@@ -18,7 +18,7 @@ Section titled “1.部署服务”
 
 Section titled “1.1 访问共绩算力控制台 https://console.suanli.cn，点击新增部署。”
 
-![](/assets/SXnxbgWFUop8DzxSL3Hc9PWRnsb.png)
+![](https://www.gongjiyun.com/assets/SXnxbgWFUop8DzxSL3Hc9PWRnsb.png)
 
 ### 1.2 选择设备
 
@@ -26,7 +26,7 @@ Section titled “1.2 选择设备”
 
 基于自身需要进行配置，参考配置为单卡 4090 和 1 个节点（初次使用进行调试）。
 
-![](/assets/YMmXbhp6NokLUrxA5mjcgm6CnCc.png)
+![](https://www.gongjiyun.com/assets/YMmXbhp6NokLUrxA5mjcgm6CnCc.png)
 
 ### 1.3 选择相应预制镜像
 
@@ -38,7 +38,7 @@ Section titled “1.3 选择相应预制镜像”
 
 Section titled “1.4 耐心等待节点拉取镜像并启动”
 
-![](/assets/SmNjbIcwRoaKogxq3KGc98XonGe.png)
+![](https://www.gongjiyun.com/assets/SmNjbIcwRoaKogxq3KGc98XonGe.png)
 
 ### 1.5 部署完成
 
@@ -48,7 +48,7 @@ Section titled “1.5 部署完成”
 
 将这个 API 地址复制下来，就可以在任何支持 Ollama 协议的应用程序中使用。
 
-![](/assets/ZtN1boy2boJv9nxflhwcuttTnob.png)
+![](https://www.gongjiyun.com/assets/ZtN1boy2boJv9nxflhwcuttTnob.png)
 
 > 在“常规”面板里可以看到公开访问的地址，此地址即为 Ollama 服务的 API 地址。 请耐心一点~~ 模型镜像会比较大，**minicpm4 镜像本身 20G+，打包之后大约 40G+，** 拉取镜像会需要一段时间
 
@@ -58,7 +58,7 @@ Section titled “1.6 验证一下”
 
 访问复制的链接，{快捷访问的地址} /api/tags，将链接复制到浏览器，就可以看到以下内容，说明模型已经部署并运行了。
 
-![](/assets/F8FqbfVI8o31PYxsjO8cEzEMnmd.png)
+![](https://www.gongjiyun.com/assets/F8FqbfVI8o31PYxsjO8cEzEMnmd.png)
 
 如果需要在其他兼容 Ollama 的客户端使用时，需要提供的参数如下：
 
@@ -97,7 +97,7 @@ Section titled “1.6 验证一下”
 
 使用第三方客户端时，可以按照下图填写内容
 
-![](/assets/BsTRbzjLooqPXxx8yyFcgAronQd.png)
+![](https://www.gongjiyun.com/assets/BsTRbzjLooqPXxx8yyFcgAronQd.png)
 
 ## 2.模型速度测试
 
@@ -109,4 +109,4 @@ minicpm4 部署完成了，速度怎么样呢？点击 [LM Speed](https://lmspee
 
 **基础 URL 后面记得加 /v1**
 
-![](/assets/VV9ZbHzYLo29ovxn6TFc52G8nij.png) ![](/assets/EJq1bXRNYoYqk2xEhOTcPNBvn5e.png)
+![](https://www.gongjiyun.com/assets/VV9ZbHzYLo29ovxn6TFc52G8nij.png) ![](https://www.gongjiyun.com/assets/EJq1bXRNYoYqk2xEhOTcPNBvn5e.png)

@@ -14,7 +14,7 @@ Section titled “1.1 创建部署服务”
 
 登录[共绩算力控制台](https://console.suanli.cn/)，在控制台首页点击“弹性部署服务”进入管理页面。首次使用需确保账户已开通弹性部署服务权限。
 
-![](/assets/OS2DbFua5o9ZqKxerH9c2dBin6f.png)
+![](https://www.gongjiyun.com/assets/OS2DbFua5o9ZqKxerH9c2dBin6f.png)
 
 ### **1.2 选择 GPU 型号**
 
@@ -24,7 +24,7 @@ Section titled “1.2 选择 GPU 型号”
 
 初次使用或调试阶段，推荐配置单张 NVIDIA RTX 4090 GPU
 
-![](/assets/KaxUbmVQzoHTcWx8VUfcbDOlndh.png)
+![](https://www.gongjiyun.com/assets/KaxUbmVQzoHTcWx8VUfcbDOlndh.png)
 
 ### **1.3 选择预制镜像**
 
@@ -38,7 +38,7 @@ Section titled “1.4 部署并访问服务”
 
 点击“部署服务”，平台将自动拉取镜像并启动容器。
 
-![](/assets/LTjbbMpogoty7Kxf1aOcB4PmnCb.png)
+![](https://www.gongjiyun.com/assets/LTjbbMpogoty7Kxf1aOcB4PmnCb.png)
 
 部署完成后，在“快捷访问”中找到端口为 7865 的公网访问链接，点击即可在浏览器中使用 CosyVoice 的 Web 界面，或通过该地址调用 API 服务。
 
@@ -50,7 +50,7 @@ Section titled “2.快速上手”
 
 各模块功能如下：
 
-![](/assets/LM6fbY3dvomxcQx0LWVc95P8nJb.png)
+![](https://www.gongjiyun.com/assets/LM6fbY3dvomxcQx0LWVc95P8nJb.png)
 
 ## 3.API 调用指南
 
@@ -58,7 +58,7 @@ Section titled “3.API 调用指南”
 
 CosyVoice 提供完整的 API 接口体系，支持通过编程方式实现音乐创作全流程自动化。以下为核心接口详解与调用示范：
 
-![](/assets/GOkFbqBt7oFeYRxbMzJcRU1rnze.png) ![](/assets/NnPnbXVtOoEcTqxtmFvcFY6Tnne.png)
+![](https://www.gongjiyun.com/assets/GOkFbqBt7oFeYRxbMzJcRU1rnze.png) ![](https://www.gongjiyun.com/assets/NnPnbXVtOoEcTqxtmFvcFY6Tnne.png)
 
 使用前请确保已安装 `gradio_client` 包：
     

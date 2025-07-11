@@ -14,7 +14,7 @@ Section titled “1.1 创建部署服务”
 
 登录[共绩算力控制台](https://console.suanli.cn/)，在控制台首页点击“弹性部署服务”进入管理页面。首次使用需确保账户已开通弹性部署服务权限。
 
-![](/assets/NnZnbqOyDo0UzLxigDVc6Yc1nDb.png)
+![](https://www.gongjiyun.com/assets/NnZnbqOyDo0UzLxigDVc6Yc1nDb.png)
 
 ### **1.2 选择 GPU 型号**
 
@@ -24,7 +24,7 @@ Section titled “1.2 选择 GPU 型号”
 
 初次使用或调试阶段，推荐配置单张 NVIDIA RTX 4090 GPU
 
-![](/assets/RRYXbOuGGop547xO8HHcLlMLnue.png)
+![](https://www.gongjiyun.com/assets/RRYXbOuGGop547xO8HHcLlMLnue.png)
 
 ### **1.3 选择预制镜像**
 
@@ -38,7 +38,7 @@ Section titled “1.4 部署并访问服务”
 
 点击“部署服务”，平台将自动拉取镜像并启动容器。
 
-![](/assets/P4zobaADhorNNexCTKwcrrnGnmp.png)
+![](https://www.gongjiyun.com/assets/P4zobaADhorNNexCTKwcrrnGnmp.png)
 
 部署完成后，在“快捷访问”中找到端口为 7865 的公网访问链接，点击即可在浏览器中使用 ACE-Step 的 Web 界面，或通过该地址调用 API 服务。
 
@@ -69,11 +69,11 @@ Section titled “2.1 Text2Music Tab”
 
     * 点击「Generate」按钮，根据输入内容创作音乐
 
-![](/assets/GFV9bS7BDoDey6xTN1kc31Ifnlf.png) ![](/assets/ZuSJb9Ea8oUBW3xyCavckB5jncc.png)
+![](https://www.gongjiyun.com/assets/GFV9bS7BDoDey6xTN1kc31Ifnlf.png) ![](https://www.gongjiyun.com/assets/ZuSJb9Ea8oUBW3xyCavckB5jncc.png)
 
 生成结果：
 
-![](/assets/HhI7bHzduo64wbxaHoQcatp2nFg.png)
+![](https://www.gongjiyun.com/assets/HhI7bHzduo64wbxaHoQcatp2nFg.png)
 
 ### 2.2 Retake Tab
 
@@ -82,7 +82,7 @@ Section titled “2.2 Retake Tab”
   * 通过不同种子值重新生成音乐并产生细微变化
   * 调整变化参数以控制新版本与原版的差异程度
 
-![](/assets/DBo7bgi8Roq95TxDkaccpBTgnee.png)
+![](https://www.gongjiyun.com/assets/DBo7bgi8Roq95TxDkaccpBTgnee.png)
 
 ### 2.3 Edit Tab
 
@@ -92,7 +92,7 @@ Section titled “2.3 Edit Tab”
   * 可选择「only_lyrics」模式（保留原旋律）或「remix」模式（改变旋律）
   * 通过调整编辑参数控制对原曲的保留程度
 
-![](/assets/WwswbZzatoDeCHxJdP9cHtSonUb.png)
+![](https://www.gongjiyun.com/assets/WwswbZzatoDeCHxJdP9cHtSonUb.png)
 
 ### 2.4 Extend Tab
 
@@ -102,7 +102,7 @@ Section titled “2.4 Extend Tab”
   * 指定左右两侧的扩展时长
   * 选择需要扩展的源音频
 
-![](/assets/L767bGRMDow5WUxtuyccXNiUnzf.png)
+![](https://www.gongjiyun.com/assets/L767bGRMDow5WUxtuyccXNiUnzf.png)
 
 ## 3.API 调用指南
 
@@ -110,7 +110,7 @@ Section titled “3.API 调用指南”
 
 ACE-Step 提供完整的 API 接口体系，支持通过编程方式实现音乐创作全流程自动化。以下为核心接口详解与调用示范：
 
-![](/assets/GGfgbt7Ovo64cmxoLzLcGTtLnEg.png)
+![](https://www.gongjiyun.com/assets/GGfgbt7Ovo64cmxoLzLcGTtLnEg.png)
 
 ### **3.1 环境准备**
 
